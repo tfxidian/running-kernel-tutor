@@ -4,126 +4,45 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-BASEINCLUDE	mm/mm/lab2_get_system_mem_info/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
-BASEINCLUDE	mm/mm/lab3_alloc_mm/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
-BASEINCLUDE	mm/mm/lab4_slab/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
-BASEINCLUDE	mm/mm/lab5_vma/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
-BASEINCLUDE	mm/mm/lab6_mmap/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
-BASEINCLUDE	mm/mm/lab8_oom/oom_kernel_driver/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
-BASEINCLUDE	mm/mm/lab9_extra_slab_exhaust/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
-BASEINCLUDE	mm/mm/mytest/alloc_page/Makefile	/^BASEINCLUDE ?= \/home\/rlk\/rlk_basic\/runninglinuxkernel_4.0$/;"	m	language:Make
-DEMO_DEV_NAME	mm/mm/lab6_mmap/test.c	11;"	d	language:C	file:
-DEMO_DEV_NAME	mm/mm/lab7_pin_page/test_issue.c	11;"	d	language:C	file:
-DEMO_DEV_NAME	mm/mm/lab7_pin_page/test_ok.c	11;"	d	language:C	file:
-DEMO_NAME	mm/mm/lab6_mmap/mydev_mmap.c	10;"	d	language:C	file:
-DEMO_NAME	mm/mm/lab7_pin_page/mydev_pin_page.c	11;"	d	language:C	file:
-MAX_DEVICE_BUFFER_SIZE	mm/mm/lab6_mmap/mydev_mmap.c	15;"	d	language:C	file:
-MAX_DEVICE_BUFFER_SIZE	mm/mm/lab7_pin_page/mydev_pin_page.c	19;"	d	language:C	file:
-MAX_OBJECTS	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	11;"	d	language:C	file:
-MB	mm/mm/lab3_alloc_mm/alloc_mm.c	8;"	d	language:C	file:
-MYDEMO_READ	mm/mm/lab7_pin_page/mydev_pin_page.c	14;"	d	language:C	file:
-MYDEMO_WRITE	mm/mm/lab7_pin_page/mydev_pin_page.c	15;"	d	language:C	file:
-MYDEV_CMD_GET_BUFSIZE	mm/mm/lab6_mmap/mydev_mmap.c	17;"	d	language:C	file:
-MYDEV_CMD_GET_BUFSIZE	mm/mm/lab6_mmap/test.c	13;"	d	language:C	file:
-MYDEV_CMD_GET_BUFSIZE	mm/mm/lab7_pin_page/mydev_pin_page.c	21;"	d	language:C	file:
-MYDEV_CMD_GET_BUFSIZE	mm/mm/lab7_pin_page/test_issue.c	13;"	d	language:C	file:
-MYDEV_CMD_GET_BUFSIZE	mm/mm/lab7_pin_page/test_ok.c	13;"	d	language:C	file:
-PRT	mm/mm/mytest/get_mm_info.c	7;"	d	language:C	file:
-SIZE	mm/mm/lab8_oom/oom_user_app/oom.c	10;"	d	language:C	file:
-__this_module	mm/mm/lab7_pin_page/mydevdemo-pin-page.mod.c	/^__visible struct module __this_module$/;"	v	language:C	typeref:struct:module
-__used	mm/mm/lab7_pin_page/mydevdemo-pin-page.mod.c	/^__used$/;"	v	language:C	file:
-alloc-oom-objs	mm/mm/lab8_oom/oom_kernel_driver/Makefile	/^alloc-oom-objs := alloc_oom.o$/;"	m	language:Make
-alloc_mem	mm/mm/lab8_oom/oom_user_app/oom.c	/^static int alloc_mem(long int size)$/;"	f	language:C	file:	signature:(long int size)
-alloc_pages_exit	mm/mm/mytest/alloc_page/alloc_page_demo.c	/^module_exit(alloc_pages_exit);$/;"	v	language:C
-alloc_pages_exit	mm/mm/mytest/alloc_page/alloc_page_demo.c	/^static void __exit alloc_pages_exit(void)$/;"	f	language:C	file:	signature:(void)
-alloc_pages_init	mm/mm/mytest/alloc_page/alloc_page_demo.c	/^module_init(alloc_pages_init);$/;"	v	language:C
-alloc_pages_init	mm/mm/mytest/alloc_page/alloc_page_demo.c	/^static int __init alloc_pages_init(void){$/;"	f	language:C	file:	signature:(void)
-allocmm-objs	mm/mm/lab3_alloc_mm/Makefile	/^allocmm-objs := alloc_mm.o$/;"	m	language:Make
-child_alloc	mm/mm/lab8_oom/oom_user_app/oom.c	/^static void child_alloc(int threads)$/;"	f	language:C	file:	signature:(int threads)
-child_alloc_thread	mm/mm/lab8_oom/oom_user_app/oom.c	/^static void *child_alloc_thread(void *args)$/;"	f	language:C	file:	signature:(void *args)
-count_kmallocs	mm/mm/lab9_extra_slab_exhaust/kmalloc-top.stp	/^sub count_kmallocs {$/;"	s	language:Perl
-demodrv_fops	mm/mm/lab6_mmap/mydev_mmap.c	/^static const struct file_operations demodrv_fops = {$/;"	v	language:C	typeref:struct:file_operations	file:
-demodrv_fops	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static const struct file_operations demodrv_fops = {$/;"	v	language:C	typeref:struct:file_operations	file:
-demodrv_mmap	mm/mm/lab6_mmap/mydev_mmap.c	/^demodrv_mmap(struct file *filp, struct vm_area_struct *vma)$/;"	f	language:C	file:	signature:(struct file *filp, struct vm_area_struct *vma)
-demodrv_mmap	mm/mm/lab7_pin_page/mydev_pin_page.c	/^demodrv_mmap(struct file *filp, struct vm_area_struct *vma)$/;"	f	language:C	file:	signature:(struct file *filp, struct vm_area_struct *vma)
-demodrv_open	mm/mm/lab6_mmap/mydev_mmap.c	/^static int demodrv_open(struct inode *inode, struct file *file)$/;"	f	language:C	file:	signature:(struct inode *inode, struct file *file)
-demodrv_open	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static int demodrv_open(struct inode *inode, struct file *file)$/;"	f	language:C	file:	signature:(struct inode *inode, struct file *file)
-demodrv_read	mm/mm/lab6_mmap/mydev_mmap.c	/^demodrv_read(struct file *file, char __user *buf, size_t count, loff_t *ppos)$/;"	f	language:C	file:	signature:(struct file *file, char __user *buf, size_t count, loff_t *ppos)
-demodrv_read	mm/mm/lab7_pin_page/mydev_pin_page.c	/^demodrv_read(struct file *file, char __user *buf, size_t count, loff_t *ppos)$/;"	f	language:C	file:	signature:(struct file *file, char __user *buf, size_t count, loff_t *ppos)
-demodrv_read_write	mm/mm/lab7_pin_page/mydev_pin_page.c	/^demodrv_read_write(void *buf, size_t len,$/;"	f	language:C	file:	signature:(void *buf, size_t len, int rw)
-demodrv_release	mm/mm/lab6_mmap/mydev_mmap.c	/^static int demodrv_release(struct inode *inode, struct file *file)$/;"	f	language:C	file:	signature:(struct inode *inode, struct file *file)
-demodrv_release	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static int demodrv_release(struct inode *inode, struct file *file)$/;"	f	language:C	file:	signature:(struct inode *inode, struct file *file)
-demodrv_unlocked_ioctl	mm/mm/lab6_mmap/mydev_mmap.c	/^demodrv_unlocked_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	language:C	file:	signature:(struct file *filp, unsigned int cmd, unsigned long arg)
-demodrv_unlocked_ioctl	mm/mm/lab7_pin_page/mydev_pin_page.c	/^demodrv_unlocked_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	language:C	file:	signature:(struct file *filp, unsigned int cmd, unsigned long arg)
-demodrv_write	mm/mm/lab6_mmap/mydev_mmap.c	/^demodrv_write(struct file *file, const char __user *buf, size_t count, loff_t *ppos)$/;"	f	language:C	file:	signature:(struct file *file, const char __user *buf, size_t count, loff_t *ppos)
-demodrv_write	mm/mm/lab7_pin_page/mydev_pin_page.c	/^demodrv_write(struct file *file, const char __user *buf, size_t count, loff_t *ppos)$/;"	f	language:C	file:	signature:(struct file *file, const char __user *buf, size_t count, loff_t *ppos)
-device_buffer	mm/mm/lab6_mmap/mydev_mmap.c	/^static char *device_buffer;$/;"	v	language:C	file:
-device_buffer	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static char *device_buffer;$/;"	v	language:C	file:
-filter_stacks	mm/mm/lab9_extra_slab_exhaust/kmalloc-top.stp	/^sub filter_stacks$/;"	s	language:Perl
-kbuf	mm/mm/lab4_slab/slab.c	/^static char *kbuf;$/;"	v	language:C	file:
-kbuf	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	/^static char *kbuf;$/;"	v	language:C	file:
-main	mm/mm/lab6_mmap/test.c	/^int main()$/;"	f	language:C
-main	mm/mm/lab7_pin_page/test_issue.c	/^int main()$/;"	f	language:C
-main	mm/mm/lab7_pin_page/test_ok.c	/^int main()$/;"	f	language:C
-main	mm/mm/lab8_oom/oom_user_app/oom.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
-mem	mm/mm/lab3_alloc_mm/alloc_mm.c	/^static int mem = 64;$/;"	v	language:C	file:
-mm_info-objs	mm/mm/lab2_get_system_mem_info/Makefile	/^mm_info-objs := get_mm_info.o$/;"	m	language:Make
-my_cache	mm/mm/lab4_slab/slab.c	/^struct kmem_cache *my_cache;$/;"	v	language:C	typeref:struct:kmem_cache
-my_cache	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	/^static struct kmem_cache *my_cache;$/;"	v	language:C	typeref:struct:kmem_cache	file:
-my_exit	mm/mm/lab3_alloc_mm/alloc_mm.c	/^module_exit(my_exit);$/;"	v	language:C
-my_exit	mm/mm/lab3_alloc_mm/alloc_mm.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
-my_exit	mm/mm/lab4_slab/slab.c	/^module_exit(my_exit);$/;"	v	language:C
-my_exit	mm/mm/lab4_slab/slab.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
-my_exit	mm/mm/lab5_vma/vma.c	/^module_exit(my_exit);$/;"	v	language:C
-my_exit	mm/mm/lab5_vma/vma.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
-my_exit	mm/mm/lab8_oom/oom_kernel_driver/alloc_oom.c	/^module_exit(my_exit);$/;"	v	language:C
-my_exit	mm/mm/lab8_oom/oom_kernel_driver/alloc_oom.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
-my_exit	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	/^module_exit(my_exit);$/;"	v	language:C
-my_exit	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
-my_init	mm/mm/lab3_alloc_mm/alloc_mm.c	/^module_init(my_init);$/;"	v	language:C
-my_init	mm/mm/lab3_alloc_mm/alloc_mm.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
-my_init	mm/mm/lab4_slab/slab.c	/^module_init(my_init);$/;"	v	language:C
-my_init	mm/mm/lab4_slab/slab.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
-my_init	mm/mm/lab5_vma/vma.c	/^module_init(my_init);$/;"	v	language:C
-my_init	mm/mm/lab5_vma/vma.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
-my_init	mm/mm/lab8_oom/oom_kernel_driver/alloc_oom.c	/^module_init(my_init);$/;"	v	language:C
-my_init	mm/mm/lab8_oom/oom_kernel_driver/alloc_oom.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
-my_init	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	/^module_init(my_init);$/;"	v	language:C
-my_init	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
-my_init	mm/mm/mytest/get_mm_info.c	/^static int __init my_init(void){$/;"	f	language:C	file:	signature:(void)
-mydemodrv_device	mm/mm/lab6_mmap/mydev_mmap.c	/^static struct device *mydemodrv_device;$/;"	v	language:C	typeref:struct:device	file:
-mydemodrv_device	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static struct device *mydemodrv_device;$/;"	v	language:C	typeref:struct:device	file:
-mydemodrv_misc_device	mm/mm/lab6_mmap/mydev_mmap.c	/^static struct miscdevice mydemodrv_misc_device = {$/;"	v	language:C	typeref:struct:miscdevice	file:
-mydemodrv_misc_device	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static struct miscdevice mydemodrv_misc_device = {$/;"	v	language:C	typeref:struct:miscdevice	file:
-mydevdemo-pin-page-objs	mm/mm/lab7_pin_page/Makefile	/^mydevdemo-pin-page-objs := mydev_pin_page.o $/;"	m	language:Make
-mydevdemo_mmap-objs	mm/mm/lab6_mmap/Makefile	/^mydevdemo_mmap-objs := mydev_mmap.o $/;"	m	language:Make
-obj-m	mm/mm/lab2_get_system_mem_info/Makefile	/^obj-m	:=   mm_info.o$/;"	m	language:Make
-obj-m	mm/mm/lab3_alloc_mm/Makefile	/^obj-m	:=   allocmm.o$/;"	m	language:Make
-obj-m	mm/mm/lab4_slab/Makefile	/^obj-m	:= slab_lab.o$/;"	m	language:Make
-obj-m	mm/mm/lab5_vma/Makefile	/^obj-m	:= vma_test.o$/;"	m	language:Make
-obj-m	mm/mm/lab6_mmap/Makefile	/^obj-m	:=   mydevdemo_mmap.o$/;"	m	language:Make
-obj-m	mm/mm/lab7_pin_page/Makefile	/^obj-m	:=   mydevdemo-pin-page.o$/;"	m	language:Make
-obj-m	mm/mm/lab8_oom/oom_kernel_driver/Makefile	/^obj-m	:=   alloc-oom.o$/;"	m	language:Make
-obj-m	mm/mm/lab9_extra_slab_exhaust/Makefile	/^obj-m	:= slab_exhau.o$/;"	m	language:Make
-obj-m	mm/mm/mytest/alloc_page/Makefile	/^obj-m	:=  alloc_page_demo.o$/;"	m	language:Make
-pages	mm/mm/mytest/alloc_page/alloc_page_demo.c	/^static page *pages = NULL;$/;"	v	language:C	file:
-pid	mm/mm/lab5_vma/vma.c	/^static int pid;$/;"	v	language:C	file:
-printit	mm/mm/lab5_vma/vma.c	/^static void printit(struct task_struct *tsk)$/;"	f	language:C	file:	signature:(struct task_struct *tsk)
-sigint_handler	mm/mm/lab9_extra_slab_exhaust/kmalloc-top.stp	/^sub sigint_handler$/;"	s	language:Perl
-simple_char_exit	mm/mm/lab6_mmap/mydev_mmap.c	/^module_exit(simple_char_exit);$/;"	v	language:C
-simple_char_exit	mm/mm/lab6_mmap/mydev_mmap.c	/^static void __exit simple_char_exit(void)$/;"	f	language:C	file:	signature:(void)
-simple_char_exit	mm/mm/lab7_pin_page/mydev_pin_page.c	/^module_exit(simple_char_exit);$/;"	v	language:C
-simple_char_exit	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static void __exit simple_char_exit(void)$/;"	f	language:C	file:	signature:(void)
-simple_char_init	mm/mm/lab6_mmap/mydev_mmap.c	/^module_init(simple_char_init);$/;"	v	language:C
-simple_char_init	mm/mm/lab6_mmap/mydev_mmap.c	/^static int __init simple_char_init(void)$/;"	f	language:C	file:	signature:(void)
-simple_char_init	mm/mm/lab7_pin_page/mydev_pin_page.c	/^module_init(simple_char_init);$/;"	v	language:C
-simple_char_init	mm/mm/lab7_pin_page/mydev_pin_page.c	/^static int __init simple_char_init(void)$/;"	f	language:C	file:	signature:(void)
-size	mm/mm/lab4_slab/slab.c	/^static int size = 21*PAGE_SIZE;$/;"	v	language:C	file:
-size	mm/mm/lab9_extra_slab_exhaust/slab_exhaust.c	/^static int size = 20;$/;"	v	language:C	file:
-slab_exhau-objs	mm/mm/lab9_extra_slab_exhaust/Makefile	/^slab_exhau-objs := slab_exhaust.o$/;"	m	language:Make
-slab_lab-objs	mm/mm/lab4_slab/Makefile	/^slab_lab-objs := slab.o$/;"	m	language:Make
-sort_stacks	mm/mm/lab9_extra_slab_exhaust/kmalloc-top.stp	/^sub sort_stacks$/;"	s	language:Perl
-summarize	mm/mm/lab9_extra_slab_exhaust/kmalloc-top.stp	/^sub summarize {$/;"	s	language:Perl
-top_stacks	mm/mm/lab9_extra_slab_exhaust/kmalloc-top.stp	/^sub top_stacks$/;"	s	language:Perl
-update_hash	mm/mm/lab9_extra_slab_exhaust/kmalloc-top.stp	/^sub update_hash$/;"	s	language:Perl
-vma_test-objs	mm/mm/lab5_vma/Makefile	/^vma_test-objs := vma.o$/;"	m	language:Make
+BASEINCLUDE	mm/lab2_get_system_mem_info/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
+BASEINCLUDE	mm/lab3_alloc_mm/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
+BASEINCLUDE	mm/lab4_slab/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
+BASEINCLUDE	mm/lab5_vma/Makefile	/^BASEINCLUDE ?= \/home\/figo\/work\/runninglinuxkernel\/runninglinuxkernel_4.0$/;"	m	language:Make
+BASEINCLUDE	mm/mytest/alloc_page/Makefile	/^BASEINCLUDE ?= \/home\/rlk\/rlk_basic\/runninglinuxkernel_4.0$/;"	m	language:Make
+MB	mm/lab3_alloc_mm/alloc_mm.c	8;"	d	language:C	file:
+PRT	mm/mytest/get_mm_info.c	7;"	d	language:C	file:
+alloc_pages_exit	mm/mytest/alloc_page/alloc_page_demo.c	/^module_exit(alloc_pages_exit);$/;"	v	language:C
+alloc_pages_exit	mm/mytest/alloc_page/alloc_page_demo.c	/^static void __exit alloc_pages_exit(void)$/;"	f	language:C	file:	signature:(void)
+alloc_pages_init	mm/mytest/alloc_page/alloc_page_demo.c	/^module_init(alloc_pages_init);$/;"	v	language:C
+alloc_pages_init	mm/mytest/alloc_page/alloc_page_demo.c	/^static int __init alloc_pages_init(void){$/;"	f	language:C	file:	signature:(void)
+allocmm-objs	mm/lab3_alloc_mm/Makefile	/^allocmm-objs := alloc_mm.o$/;"	m	language:Make
+kbuf	mm/lab4_slab/slab.c	/^static char *kbuf;$/;"	v	language:C	file:
+main	mm/mytest/mallocdemo/malloc_test.c	/^int main(){$/;"	f	language:C
+malloc2	mm/mytest/mallocdemo/malloc_test.c	/^void *malloc2(size_t size){$/;"	f	language:C	signature:(size_t size)
+mem	mm/lab3_alloc_mm/alloc_mm.c	/^static int mem = 64;$/;"	v	language:C	file:
+mm_info-objs	mm/lab2_get_system_mem_info/Makefile	/^mm_info-objs := get_mm_info.o$/;"	m	language:Make
+my_cache	mm/lab4_slab/slab.c	/^struct kmem_cache *my_cache;$/;"	v	language:C	typeref:struct:kmem_cache
+my_exit	mm/lab3_alloc_mm/alloc_mm.c	/^module_exit(my_exit);$/;"	v	language:C
+my_exit	mm/lab3_alloc_mm/alloc_mm.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
+my_exit	mm/lab4_slab/slab.c	/^module_exit(my_exit);$/;"	v	language:C
+my_exit	mm/lab4_slab/slab.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
+my_exit	mm/lab5_vma/vma.c	/^module_exit(my_exit);$/;"	v	language:C
+my_exit	mm/lab5_vma/vma.c	/^static void __exit my_exit(void)$/;"	f	language:C	file:	signature:(void)
+my_init	mm/lab3_alloc_mm/alloc_mm.c	/^module_init(my_init);$/;"	v	language:C
+my_init	mm/lab3_alloc_mm/alloc_mm.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
+my_init	mm/lab4_slab/slab.c	/^module_init(my_init);$/;"	v	language:C
+my_init	mm/lab4_slab/slab.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
+my_init	mm/lab5_vma/vma.c	/^module_init(my_init);$/;"	v	language:C
+my_init	mm/lab5_vma/vma.c	/^static int __init my_init(void)$/;"	f	language:C	file:	signature:(void)
+my_init	mm/mytest/get_mm_info.c	/^static int __init my_init(void){$/;"	f	language:C	file:	signature:(void)
+obj-m	mm/lab2_get_system_mem_info/Makefile	/^obj-m	:=   mm_info.o$/;"	m	language:Make
+obj-m	mm/lab3_alloc_mm/Makefile	/^obj-m	:=   allocmm.o$/;"	m	language:Make
+obj-m	mm/lab4_slab/Makefile	/^obj-m	:= slab_lab.o$/;"	m	language:Make
+obj-m	mm/lab5_vma/Makefile	/^obj-m	:= vma_test.o$/;"	m	language:Make
+obj-m	mm/mytest/alloc_page/Makefile	/^obj-m	:=  alloc_page_demo.o$/;"	m	language:Make
+pages	mm/mytest/alloc_page/alloc_page_demo.c	/^static page *pages = NULL;$/;"	v	language:C	file:
+pid	mm/lab5_vma/vma.c	/^static int pid;$/;"	v	language:C	file:
+printit	mm/lab5_vma/vma.c	/^static void printit(struct task_struct *tsk)$/;"	f	language:C	file:	signature:(struct task_struct *tsk)
+size	mm/lab4_slab/slab.c	/^static int size = 21*PAGE_SIZE;$/;"	v	language:C	file:
+slab_lab-objs	mm/lab4_slab/Makefile	/^slab_lab-objs := slab.o$/;"	m	language:Make
+vma_test-objs	mm/lab5_vma/Makefile	/^vma_test-objs := vma.o$/;"	m	language:Make
